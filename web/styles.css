@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  background-color: #1d1d23;
+  font-family: 'Roboto', sans-serif;
+  color: #7898d4;
+  
+}
+
+.map {
+  margin: 0 auto;
+  
+  height: 700px;
+  width: 80%;
+}
+
+
+/*Overlay background*/
+.overlay-container{
+  background-color: #e5fdc8;
+  border: 2px solid #88c048;
+  width: 150px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 10px;
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -50px;
+}
