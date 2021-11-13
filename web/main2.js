@@ -44,21 +44,27 @@ function init(){
 
 
         if(feature.get('class_') === 0) {
-          strokecolor = '#11f03a';
+          strokecolor = '#009e00';
         } else if(feature.get('class_')=== 1){
-          strokecolor = '#1a782c';
+          strokecolor = '#00ec00';
         }
         else if(feature.get('class_')=== 2){
-            strokecolor = '#76ab1a';
+            strokecolor = '#96f387';
         }
         else if(feature.get('class_')=== 3){
-            strokecolor = '#c3d40f';
+            strokecolor = '#ebf64c';
         }
         else if(feature.get('class_')=== 4){
-            strokecolor = '#bf0b38';
+            strokecolor = '#ffe200';
         }
         else if(feature.get('class_')=== 5){
-            strokecolor = 'blue';
+            strokecolor = '#ff9200';
+        }
+        else if(feature.get('class_')=== 6){
+            strokecolor = '#ba5100';
+        }
+        else if(feature.get('class_')=== 7){
+            strokecolor = '#ff0000';
         }
         else{
             strokecolor = 'white';
@@ -85,7 +91,7 @@ function init(){
       var wellsLayer = new ol.layer.Vector({
         source: new ol.source.Vector({
           
-          url: "./data/10k_above_01_ndvi_filt.geojson", //228_classif
+          url: "./data/Fe.geojson", //228_classif
           format: new ol.format.GeoJSON()
         }),
         
