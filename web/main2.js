@@ -91,7 +91,7 @@ function init(){
       var wellsLayer = new ol.layer.Vector({
         source: new ol.source.Vector({
           
-          url: "./data/Fe.geojson", //228_classif
+          url: "./data/pred/Fe_5k_pred.geojson", //228_classif
           format: new ol.format.GeoJSON()
         }),
         
